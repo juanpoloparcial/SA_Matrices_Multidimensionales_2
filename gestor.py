@@ -44,11 +44,11 @@ def filtrar_por_dni():
 # Función principal con el menú
 def menu():
     while True:
-        print("\n--- Menú ---")
-        print("1. Ingresar nueva persona")
-        print("2. Mostrar todos los datos")
-        print("3. Filtrar por DNI")
-        print("4. Salir")
+        print("\n--- Menú ---\n"
+        "1. Ingresar nueva persona\n"
+        "2. Mostrar todos los datos\n"
+        "3. Filtrar por DNI\n"
+        "4. Salir\n")
 
         opcion = input("Elige una opción: ")
 
